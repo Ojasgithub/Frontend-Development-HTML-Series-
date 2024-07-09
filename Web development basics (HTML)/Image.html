@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Image tag In HTML
+    </title>
+</head>
+
+<body>
+    <h1>Image Tag In HTML</h1>
+
+<!-- 'src' specifies the image location-->
+    <img src="flowers.jpeg" width="250px" height="300px" />
+
+<!-- 'alt' display alternate text when image cannot display-->
+
+    <img src= "#" alt="Flower image display here"  width="250px"  height="300px" border="5" />
+
+<!--animated image only use gif format-->
+    <img src="tom.gif"   width="200px" height="200px" />
+
+
+    <!-- 'longdesc' Specifies a URL to a detailed description of the image.-->
+    <a href="text formatting.html">
+    <img src= "flowers2.jpeg"   width="250px"  height="300px" align="right" />
+</a>
+
+<!--'usemap' specifies an image map to associate with an image-->
+<!-- where 'mapname' It is used to hold the map name containing the hash (#) character.-->
+<img src="flowers2.jpeg"
+         alt="" width="300"
+         height="150" usemap="#shapemap" />
+ 
+    <map name="shapemap">
+        <!-- area tag contained image. -->
+        <area shape="rect" coords="224, 30, 276, 82"
+              href="flowers2.jpeg"
+              alt="Square">
+</map>
+
+ 
+</body>
+
+</html>                  
