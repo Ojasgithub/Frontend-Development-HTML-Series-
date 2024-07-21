@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Image tag In HTML
+    </title>
+</head>
+
+<body>
+    <h1>Image Tag In HTML</h1>
+
+<!-- 'src' specifies the image location-->
+    <img src="flowers.jpeg" width="250px" height="200px" />
+    <p>Normal Image</p>
+
+<!-- 'alt' display alternate text when image cannot display-->
+
+    <img src= "#" alt="Flower image display here"  width="250px"  height="300px" border="5" />
+    <p>Alt image</p>
+
+<!--animated image only use gif format-->
+    <img src="tom.gif"   width="200px" height="200px" />
+    <p>Animated Image</p>
+
+
+    <!-- 'longdesc' Specifies a URL to a detailed description of a particular image.-->
+     <p>longdesc</p>
+    <a href="https://en.wikipedia.org/wiki/Flowers">
+    <img src= "flowers2.jpeg"   width="250px"  height="300px"/>
+</a>
+
+<!--'usemap' specifies an image map to associate with an image-->
+<!-- where 'mapname' It is used to hold the map name containing the hash (#) character.-->
+
+<p>Image Map</p>
+<img src="work.jpeg" alt="Work" usemap="#workmap" width="400" height="300">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+</map>
+
+ 
+</body>
+
+</html>                  

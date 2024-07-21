@@ -1,0 +1,53 @@
+header{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align:center;
+
+}
+nav{
+    background-color:darkred;
+    padding:25px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+section{
+    height:30%;
+    background-color: chocolate;
+    color:white;
+    padding:10px;
+    text-align:center;
+
+}
+article{
+    background-color: darkorange;
+    float:left;
+    width:70%;
+    color:white;
+    padding:10px;
+
+}
+aside{
+    background-color: green;
+    width:27%;
+    position: absolute;
+    right:0;
+    color:white;
+    padding:20px;
+    float:right;
+
+
+}
+footer{
+    background-color: crimson;
+    width:98%;
+    color:white;
+    position:absolute;
+    padding:10px;
+    bottom:30px;
+    text-align:center;
+
+}
